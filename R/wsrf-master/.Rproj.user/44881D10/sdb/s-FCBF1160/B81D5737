@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "setwd(\"C:/Users/HJJeong/Desktop/experiment/R\")\n\nlibrary(randomForest)\narg<-commandArgs()\nfeature <- 'GE123,GE234,500,464,44,'\n\ndata = data.frame(do.call(\"rbind\",strsplit(feature,\",\")),stringsAsFactors=FALSE)\nidx = (3:(length(data)))\ntest<-data[,idx]\n\nfor(i in (1:length(test))){\n  names(test)[i]<-paste(\"V\",i+2,sep=\"\")\n  as.numeric(test[i])\n}\n\nmodel <- readRDS(\"smallmodel.rds\")\nresult <- predict(model, newdata = test, predict.all=TRUE)\n#result$aggregate\n",
+    "created" : 1476274425922.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3880139280",
+    "id" : "B81D5737",
+    "lastKnownWriteTime" : 32088581144313971,
+    "last_content_update" : 1476276064387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "setwd(\"C:/Users/HJJeong/Desktop/experiment/R\")\n\nlibrary(randomForest)\n\nfile_dir = \"C:/Users/HJJeong/Desktop/experiment/R/\";\nfile_name_train= \"CMpreprocessing.csv\"\n\n# table-format data from a file named file_name_train \ntable_train = read.csv(file=paste(file_dir,file_name_train,sep=\"\"), header = FALSE)\nidx = (3:(length(table_train[1,])-1))\ntrain=table_train[,idx]\n\n\n# to make a model for classification, add label value as factor\ntrain[,length(train[1,])+1] = as.factor(table_train[,length(table_train[1,])])\ncolnames(train)[length(train[1,])] <- \"label\"\n\n\nmodel <- randomForest(label~., data=train, importance=TRUE, proximity=FALSE, ntree=100)\nmodel\nsaveRDS(model, file=\"smallmodel.rds\")\n\nwriteLines(\"========================================\")",
+    "created" : 1476274405906.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "367021406",
+    "id" : "910465FE",
+    "lastKnownWriteTime" : 7310224141961929331,
+    "last_content_update" : 1476275654854,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

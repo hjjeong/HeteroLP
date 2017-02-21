@@ -1,0 +1,9 @@
+0,causeSideEffect
+1,bind>bind>causeSideEffect
+2,bind>express>causeSideEffect
+3,causeSideEffect>causeSideEffect>causeSideEffect
+4,express>bind>causeSideEffect
+5,express>express>causeSideEffect
+6,hasChemicalOntology>hasChemicalOntology>causeSideEffect
+7,hasDisease>hasDisease>causeSideEffect
+8,hasSubstructure>hasSubstructure>causeSideEffect

@@ -1,0 +1,9 @@
+0,hasChemicalOntology
+1,bind>bind>hasChemicalOntology
+2,bind>express>hasChemicalOntology
+3,causeSideEffect>causeSideEffect>hasChemicalOntology
+4,express>bind>hasChemicalOntology
+5,express>express>hasChemicalOntology
+6,hasChemicalOntology>hasChemicalOntology>hasChemicalOntology
+7,hasDisease>hasDisease>hasChemicalOntology
+8,hasSubstructure>hasSubstructure>hasChemicalOntology

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WSRF", "WSRF.vcxproj", "{4CE26AA3-3E80-4F4E-9CBE-65D53D6DBF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE26AA3-3E80-4F4E-9CBE-65D53D6DBF9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CE26AA3-3E80-4F4E-9CBE-65D53D6DBF9B}.Debug|Win32.Build.0 = Debug|Win32
+		{4CE26AA3-3E80-4F4E-9CBE-65D53D6DBF9B}.Release|Win32.ActiveCfg = Release|Win32
+		{4CE26AA3-3E80-4F4E-9CBE-65D53D6DBF9B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

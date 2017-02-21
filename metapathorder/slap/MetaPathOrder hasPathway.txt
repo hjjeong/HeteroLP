@@ -1,0 +1,15 @@
+0,hasPathway
+1,hasGeneFamily>hasPathway
+2,proteinProteinInteraction>hasPathway
+3,bind>bind>hasPathway
+4,bind>express>hasPathway
+5,causeDisease>causeDisease>hasPathway
+6,express>bind>hasPathway
+7,express>express>hasPathway
+8,expressIn>expressIn>hasPathway
+9,hasGO>hasGO>hasPathway
+10,hasGeneFamily>hasGeneFamily>hasPathway
+11,hasGeneFamily>proteinProteinInteraction>hasPathway
+12,hasPathway>hasPathway>hasPathway
+13,proteinProteinInteraction>hasGeneFamily>hasPathway
+14,proteinProteinInteraction>proteinProteinInteraction>hasPathway

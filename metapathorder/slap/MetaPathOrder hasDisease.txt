@@ -1,0 +1,16 @@
+0,hasDisease
+1,causeDisease>bind
+2,causeDisease>express
+3,causeDisease>causeDisease>hasDisease
+4,causeDisease>hasGeneFamily>bind
+5,causeDisease>hasGeneFamily>express
+6,causeDisease>proteinProteinInteraction>bind
+7,causeDisease>proteinProteinInteraction>express
+8,hasDisease>bind>bind
+9,hasDisease>bind>express
+10,hasDisease>causeSideEffect>causeSideEffect
+11,hasDisease>express>bind
+12,hasDisease>express>express
+13,hasDisease>hasChemicalOntology>hasChemicalOntology
+14,hasDisease>hasDisease>hasDisease
+15,hasDisease>hasSubstructure>hasSubstructure

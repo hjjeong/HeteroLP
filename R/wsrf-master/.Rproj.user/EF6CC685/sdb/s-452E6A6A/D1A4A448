@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "dirpath = \"D:/workspace/LinkPredictionRefactoring_data/new_result/slap_undersampling_ncn/\"\nfilepath2 = paste(dirpath, \"160920 hasPathway undersampling10_clusterpathlen2_levelcolleague__path count_hn_colleague_wsrf__probability2.csv\",sep=\"\")\nfilepath1 = paste(dirpath, \"160920 hasPathway undersampling10_clusterpathlen2_levelcolleague__path count_hn_colleague__probability2.csv\", sep=\"\")\nfilepath = paste(dirpath, \"160920 hasPathway undersampling10_clusterpathlen2_levelcolleague__path count__probability2.csv\", sep=\"\")\n\ntrain_prob = read.csv(file=filepath, header = FALSE)\nPRcurve <- function(preds,trues,...) {\n  require(ROCR,quietly=T)\n  pd <- prediction(preds,trues)\n  pf <- performance(pd,'prec','rec')\n  pf@y.values <- lapply(pf@y.values,function(x) rev(cummax(rev(x))))\n  plot(pf,xlim=c(0.1,1),ylim=c(0,1),lty=1, lwd=2) \n}\n\nPRcurve(train_prob[,2],train_prob[,3])\npar(new=T)\n\ntrain_prob1 = read.csv(file=filepath1, header = FALSE)\nPRcurve1 <- function(preds,trues,...) {\n  require(ROCR,quietly=T)\n  pd <- prediction(preds,trues)\n  pf <- performance(pd,'prec','rec')\n  pf@y.values <- lapply(pf@y.values,function(x) rev(cummax(rev(x))))\n  plot(pf,xlim=c(0.1,1),ylim=c(0,1),lty=3, lwd=2) \n}\nPRcurve1(train_prob1[,2],train_prob1[,3])\npar(new=T)\n\ntrain_prob2 = read.csv(file=filepath2, header = FALSE)\nPRcurve2 <- function(preds,trues,...) {\n  require(ROCR,quietly=T)\n  pd <- prediction(preds,trues)\n  pf <- performance(pd,'prec','rec')\n  pf@y.values <- lapply(pf@y.values,function(x) rev(cummax(rev(x))))\n  plot(pf,xlim=c(0.1,1),ylim=c(0,1),lty=6, lwd=2) \n}\nPRcurve2(train_prob2[,2],train_prob2[,3])\n\nlegend(\"topright\",inset=0.0,pt.cex=1, cex=0.8,lty=c(1,3,6),c(\"PC\",\"PC + HN + AC\",\"PC + HN + AC + Corr_PL\"))",
+    "created" : 1476881788314.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3535531162",
+    "id" : "D1A4A448",
+    "lastKnownWriteTime" : 1477287796,
+    "last_content_update" : 1477287796144,
+    "path" : "C:/Users/HJJeong/Desktop/experiment/R/prplot.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

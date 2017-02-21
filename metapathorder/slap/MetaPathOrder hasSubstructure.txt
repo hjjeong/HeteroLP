@@ -1,0 +1,9 @@
+0,hasSubstructure
+1,bind>bind>hasSubstructure
+2,bind>express>hasSubstructure
+3,causeSideEffect>causeSideEffect>hasSubstructure
+4,express>bind>hasSubstructure
+5,express>express>hasSubstructure
+6,hasChemicalOntology>hasChemicalOntology>hasSubstructure
+7,hasDisease>hasDisease>hasSubstructure
+8,hasSubstructure>hasSubstructure>hasSubstructure

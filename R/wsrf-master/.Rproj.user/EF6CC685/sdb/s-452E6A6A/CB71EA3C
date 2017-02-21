@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"randomForest\")\nsetwd(\"D:/workspace/LinkPredictionRefactoring_data/new_result/coda_level_colleague/\")\n\nfile_dir = \"D:/workspace/LinkPredictionRefactoring_data/new_result/coda_level_colleague/\";\nfile_name_train= \"161107 GE_BP undersampling10_pathlen3_cluserpathlen2_levelcolleague_train_integrate_0_1.csv\"\nlink_Type = \"GE_BP\"\n\n# table-format data from a file named file_name_train \ntable_train = read.csv(file=paste(file_dir,file_name_train,sep=\"\"), header = FALSE)\nidx = (3:(length(table_train[1,])-1))\ntrain=table_train[,idx]\n\n# to make a model for classification, add label value as factor\ntrain[,length(train[1,])+1] = as.factor(table_train[,length(table_train[1,])])\ncolnames(train)[length(train[1,])] <- \"label\"\n\n#model.wsrf <- wsrf(label~., data = train, weights = FALSE)\nmodel <- randomForest(label~., data=train, importance=TRUE, proximity=FALSE, ntree=100)\n\n#saveRDS(model.wsrf, file=paste(link_Type, \"_model_rf.rds\",sep=\"\"))\nsaveRDS(model, file=paste(link_Type,\"_model_rf.rds\",sep=\"\"))\nwriteLines(\"========================================\")\n",
+    "created" : 1478668479994.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "552352898",
+    "id" : "CB71EA3C",
+    "lastKnownWriteTime" : 1486625041,
+    "last_content_update" : 1486625041782,
+    "path" : "D:/workspace/LinkPrediction_ncn_coda/R/linkprediction_train_UI.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

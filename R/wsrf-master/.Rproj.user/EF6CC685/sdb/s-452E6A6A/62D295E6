@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "setwd(\"C:/Users/HJJeong/Desktop/experiment/R\")\n\narg<-commandArgs()\nfeature <- arg[6]\nlinkType <- arg[7]\nfile_dir = \"D:/workspace/LinkPredictionRefactoring_data/new_result/korea_level/\";\nfile_name_train= \"161004 TG_PW undersampling10_clusterpathlen3_levelcolleague_train_0.csv\"\n\n# table-format data from a file named file_name_train \ntable_train = read.csv(file=paste(file_dir,file_name_train,sep=\"\"), header = FALSE)\nidx = (3:(length(table_train[1,])-1))\nfeature=table_train[,idx]\n\n#table_test <- strsplit(feature,\",\")\n\n#idx = (3:(length(table_test)))\n#test = table_test[,idx]\n#test[,length(test[1,])+1] = as.factor(table_test[,length(table_test[1,])])\n#colnames(test)[length(test[1,])]<-\"label\"\n\nmodel <- readRDS(\"model.rds\")\nresult <- predict(model, newdata = feature, predict.all=TRUE)\n#result$aggregate\n",
+    "created" : 1486623927061.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4123849",
+    "id" : "62D295E6",
+    "lastKnownWriteTime" : 1476276163,
+    "last_content_update" : 1476276163,
+    "path" : "C:/Users/HJJeong/Desktop/wsrf-master-Web/R/wsrf_web.r",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

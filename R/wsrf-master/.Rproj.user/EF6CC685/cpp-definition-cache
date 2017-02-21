@@ -1,0 +1,1385 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.cpp",
+                "kind" : 7,
+                "line" : 21,
+                "name" : "weightedSampling(int)",
+                "parent_name" : "IGR",
+                "usr" : "c:@C@IGR@F@weightedSampling#I#"
+            },
+            {
+                "column" : 18,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.cpp",
+                "kind" : 7,
+                "line" : 52,
+                "name" : "getRandomWeightedVars",
+                "parent_name" : "IGR",
+                "usr" : "c:@C@IGR@F@getRandomWeightedVars#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.cpp",
+                "kind" : 7,
+                "line" : 97,
+                "name" : "normalizeWeight(volatile bool *)",
+                "parent_name" : "IGR",
+                "usr" : "c:@C@IGR@F@normalizeWeight#*2b#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.cpp",
+                "kind" : 7,
+                "line" : 144,
+                "name" : "getSelectedIdx",
+                "parent_name" : "IGR",
+                "usr" : "c:@C@IGR@F@getSelectedIdx#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.cpp",
+        "file_last_write" : 1463647973
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.h",
+                "kind" : 2,
+                "line" : 17,
+                "name" : "IGR",
+                "parent_name" : "",
+                "usr" : "c:@C@IGR"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/IGR.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 15,
+                "name" : "handleDiscVar(int)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@handleDiscVar#I#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 126,
+                "name" : "handleContVar(int)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@handleContVar#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 143,
+                "name" : "getRandomVars(vector<int>, int)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@getRandomVars#$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 187,
+                "name" : "calcInfos(const vector<int> &, volatile bool *)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@calcInfos#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#*2b#"
+            },
+            {
+                "column" : 22,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 210,
+                "name" : "averageInfoGain",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@averageInfoGain#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 220,
+                "name" : "doIGRSelection(int, VarSelectRes &, volatile bool *)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@doIGRSelection#I#&$@S@attribute_selection_result#*2b#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 291,
+                "name" : "setResult(int, VarSelectRes &, double)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@setResult#I#&$@S@attribute_selection_result#d#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+                "kind" : 7,
+                "line" : 305,
+                "name" : "doSelection(int, VarSelectRes &, volatile bool *)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@doSelection#I#&$@S@attribute_selection_result#*2b#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.cpp",
+        "file_last_write" : 1476880737
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.h",
+                "kind" : 2,
+                "line" : 18,
+                "name" : "C4p5Selector",
+                "parent_name" : "",
+                "usr" : "c:@C@C4p5Selector"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.h",
+                "kind" : 7,
+                "line" : 45,
+                "name" : "sumNlogn(const vector<int> &, int)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@sumNlogn#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.h",
+                "kind" : 7,
+                "line" : 53,
+                "name" : "calcEntropy(const vector<int> &)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@calcEntropy#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.h",
+                "kind" : 7,
+                "line" : 58,
+                "name" : "calcBisectSubinfo(const vector<int> &, int, const vector<int> &, int)",
+                "parent_name" : "C4p5Selector",
+                "usr" : "c:@C@C4p5Selector@F@calcBisectSubinfo#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#S0_#I#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/c4_5_var_selector.h",
+        "file_last_write" : 1462966994
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 33,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 39,
+                "name" : "splitDiscVar(const vector<int> &, int)",
+                "parent_name" : "Dataset",
+                "usr" : "c:@C@Dataset@F@splitDiscVar#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#"
+            },
+            {
+                "column" : 33,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 62,
+                "name" : "splitPosition(vector<int> &, int)",
+                "parent_name" : "Dataset",
+                "usr" : "c:@C@Dataset@F@splitPosition#&$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.cpp",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 2,
+                "line" : 9,
+                "name" : "TargetData",
+                "parent_name" : "",
+                "usr" : "c:@C@TargetData"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 34,
+                "name" : "nobs",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@nobs#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 38,
+                "name" : "nlabels",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@nlabels#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 42,
+                "name" : "getLabel(int)",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@getLabel#I#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 47,
+                "name" : "haveSameLabel(const vector<int> &)",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@haveSameLabel#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#"
+            },
+            {
+                "column" : 17,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 64,
+                "name" : "getLabelFreqCount(const vector<int> &)",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@getLabelFreqCount#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#"
+            },
+            {
+                "column" : 16,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 77,
+                "name" : "save",
+                "parent_name" : "TargetData",
+                "usr" : "c:@C@TargetData@F@save#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 2,
+                "line" : 88,
+                "name" : "Dataset",
+                "parent_name" : "",
+                "usr" : "c:@C@Dataset"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 98,
+                "name" : "init(int, SEXP)",
+                "parent_name" : "Dataset",
+                "usr" : "c:@C@Dataset@F@init#I#*$@S@SEXPREC#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 175,
+                "name" : "nlogn(int)",
+                "parent_name" : "Dataset",
+                "usr" : "c:@C@Dataset@F@nlogn#I#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+                "kind" : 7,
+                "line" : 179,
+                "name" : "nobs",
+                "parent_name" : "Dataset",
+                "usr" : "c:@C@Dataset@F@nobs#1"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/dataset.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 22,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.cpp",
+                "kind" : 7,
+                "line" : 122,
+                "name" : "save",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@save#1"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.cpp",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "MetaData",
+                "parent_name" : "",
+                "usr" : "c:@C@MetaData"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 15,
+                "name" : "type_vec",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@206@C@MetaData@T@type_vec"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 16,
+                "name" : "idx_vec",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@254@C@MetaData@T@idx_vec"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 17,
+                "name" : "name_vec",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@301@C@MetaData@T@name_vec"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 18,
+                "name" : "name_value_map",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@349@C@MetaData@T@name_value_map"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 19,
+                "name" : "var_value_map",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@403@C@MetaData@T@var_value_map"
+            },
+            {
+                "column" : 39,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 8,
+                "line" : 20,
+                "name" : "val_name_map",
+                "parent_name" : "",
+                "usr" : "c:meta_data.h@456@C@MetaData@T@val_name_map"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 40,
+                "name" : "nvars",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@nvars#1"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 45,
+                "name" : "targVarIdx",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@targVarIdx#1"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 50,
+                "name" : "targVarName",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@targVarName#1"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 55,
+                "name" : "getNumValues(int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getNumValues#I#1"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 60,
+                "name" : "nlabels",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@nlabels#1"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 67,
+                "name" : "getVarType(int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getVarType#I#1"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 72,
+                "name" : "getValueName(int, int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getValueName#I#I#1"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 77,
+                "name" : "getValueNames(int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getValueNames#I#1"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 82,
+                "name" : "getLabelNames",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getLabelNames#1"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 86,
+                "name" : "getLabelName(int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getLabelName#I#1"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 91,
+                "name" : "getValue(int, string)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getValue#I#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 98,
+                "name" : "getVarName(int)",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getVarName#I#1"
+            },
+            {
+                "column" : 27,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 102,
+                "name" : "getVarNames",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getVarNames#"
+            },
+            {
+                "column" : 24,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+                "kind" : 7,
+                "line" : 106,
+                "name" : "getFeatureVars",
+                "parent_name" : "MetaData",
+                "usr" : "c:@C@MetaData@F@getFeatureVars#1"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/meta_data.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 13,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.cpp",
+                "kind" : 7,
+                "line" : 27,
+                "name" : "weightedSampling(int)",
+                "parent_name" : "newIGR",
+                "usr" : "c:@C@newIGR@F@weightedSampling#I#"
+            },
+            {
+                "column" : 21,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.cpp",
+                "kind" : 7,
+                "line" : 58,
+                "name" : "getRandomWeightedVars",
+                "parent_name" : "newIGR",
+                "usr" : "c:@C@newIGR@F@getRandomWeightedVars#"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.cpp",
+                "kind" : 7,
+                "line" : 103,
+                "name" : "normalizeWeight(volatile bool *)",
+                "parent_name" : "newIGR",
+                "usr" : "c:@C@newIGR@F@normalizeWeight#*2b#"
+            },
+            {
+                "column" : 13,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.cpp",
+                "kind" : 7,
+                "line" : 161,
+                "name" : "getSelectedIdx",
+                "parent_name" : "newIGR",
+                "usr" : "c:@C@newIGR@F@getSelectedIdx#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.cpp",
+        "file_last_write" : 1486033619
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.h",
+                "kind" : 2,
+                "line" : 17,
+                "name" : "newIGR",
+                "parent_name" : "",
+                "usr" : "c:@C@newIGR"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/newIGR.h",
+        "file_last_write" : 1463145365
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 2,
+                "line" : 16,
+                "name" : "Node",
+                "parent_name" : "",
+                "usr" : "c:@C@Node"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 83,
+                "name" : "type",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@type#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 88,
+                "name" : "setLabel(int)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setLabel#I#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 93,
+                "name" : "label",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@label#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 98,
+                "name" : "setVarIdx(int)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setVarIdx#I#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 102,
+                "name" : "getVarIdx",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getVarIdx#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 106,
+                "name" : "setInfoGain(double)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setInfoGain#d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 110,
+                "name" : "setSplitInfo(double)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setSplitInfo#d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 114,
+                "name" : "setSplitValue(double)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setSplitValue#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 118,
+                "name" : "getSplitValue",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getSplitValue#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 122,
+                "name" : "setGainRatio(double)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setGainRatio#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 126,
+                "name" : "getGainRatio",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getGainRatio#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 130,
+                "name" : "nchild",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@nchild#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 134,
+                "name" : "setLabelFreqCount(vector<int>, bool)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setLabelFreqCount#$@N@std@C@vector>#I#$@N@std@C@allocator>#I#b#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 143,
+                "name" : "setChild(int, Node *)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@setChild#I#*$@C@Node#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 147,
+                "name" : "getChild(int)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getChild#I#"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 151,
+                "name" : "getLabelDstr",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getLabelDstr#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 172,
+                "name" : "getLabelDstrStr",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@getLabelDstrStr#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+                "kind" : 7,
+                "line" : 186,
+                "name" : "save(vector<double> &, MetaData *)",
+                "parent_name" : "Node",
+                "usr" : "c:@C@Node@F@save#&$@N@std@C@vector>#d#$@N@std@C@allocator>#d#*$@C@MetaData#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/node.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 89,
+                "name" : "buildOneTree(int, volatile bool *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@buildOneTree#I#*2b#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 95,
+                "name" : "buidForestSeq(volatile bool *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@buidForestSeq#*2b#"
+            },
+            {
+                "column" : 30,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 225,
+                "name" : "predictMatrix(Dataset *, predictor)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictMatrix#*$@C@Dataset# #"
+            },
+            {
+                "column" : 30,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 245,
+                "name" : "predictClassVec(Dataset *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictClassVec#*$@C@Dataset#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 261,
+                "name" : "collectBasicStatistics",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@collectBasicStatistics#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 286,
+                "name" : "calcOOBConfusionErrorRateAndStrength",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@calcOOBConfusionErrorRateAndStrength#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 336,
+                "name" : "calcRFCorrelationAndCS2",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@calcRFCorrelationAndCS2#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 362,
+                "name" : "assessPermVariableImportance",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@assessPermVariableImportance#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 398,
+                "name" : "saveModel(Rcpp::List &)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@saveModel#&$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+                "kind" : 7,
+                "line" : 427,
+                "name" : "saveMeasures(Rcpp::List &)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@saveMeasures#&$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.cpp",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 2,
+                "line" : 27,
+                "name" : "RForest",
+                "parent_name" : "",
+                "usr" : "c:@C@RForest"
+            },
+            {
+                "column" : 29,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 8,
+                "line" : 70,
+                "name" : "predictor",
+                "parent_name" : "",
+                "usr" : "c:rforest.h@2377@C@RForest@T@predictor"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 7,
+                "line" : 83,
+                "name" : "predictLabelFreqCount(Dataset *, int, double *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictLabelFreqCount#*$@C@Dataset#I#*d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 7,
+                "line" : 92,
+                "name" : "predictProbVec(Dataset *, int, double *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictProbVec#*$@C@Dataset#I#*d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 7,
+                "line" : 104,
+                "name" : "predictAprobVec(Dataset *, int, double *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictAprobVec#*$@C@Dataset#I#*d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 7,
+                "line" : 116,
+                "name" : "predictWAprobVec(Dataset *, int, double *)",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@predictWAprobVec#*$@C@Dataset#I#*d#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+                "kind" : 7,
+                "line" : 137,
+                "name" : "calcEvalMeasures",
+                "parent_name" : "RForest",
+                "usr" : "c:@C@RForest@F@calcEvalMeasures#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/rforest.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 57,
+                "name" : "genBaggingSets",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@genBaggingSets#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 94,
+                "name" : "build(int, bool, bool, volatile bool *)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@build#I#b#b#*2b#"
+            },
+            {
+                "column" : 13,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 100,
+                "name" : "genC4p5Tree(const vector<int> &, const vector<int> &, int, bool, volatile bool *)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@genC4p5Tree#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#S0_#I#b#*2b#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 176,
+                "name" : "permute(int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@permute#I#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 225,
+                "name" : "resetPerm(bool)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@resetPerm#b#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 233,
+                "name" : "calcOOBMeasures(bool)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@calcOOBMeasures#b#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 308,
+                "name" : "printTree(Node *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@printTree#*$@C@Node#I#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 340,
+                "name" : "print",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@print#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+                "kind" : 7,
+                "line" : 345,
+                "name" : "save(vector<vector<double> > &)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@save#&$@N@std@C@vector>#$@N@std@C@vector>#d#$@N@std@C@allocator>#d#$@N@std@C@allocator>#S2_#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.cpp",
+        "file_last_write" : 1462942419
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "Tree",
+                "parent_name" : "",
+                "usr" : "c:@C@Tree"
+            },
+            {
+                "column" : 17,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 40,
+                "name" : "removeOneVar(const vector<int> &, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@removeOneVar#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 63,
+                "name" : "predictNode(Dataset *, int, Node *)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@predictNode#*$@C@Dataset#I#*$@C@Node#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 96,
+                "name" : "printNodeInfo(const char *, string &, int, string &, const char *, Node *)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@printNodeInfo#*1C#&$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#I#S1_#S0_#*$@C@Node#"
+            },
+            {
+                "column" : 26,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 8,
+                "line" : 109,
+                "name" : "Dosth",
+                "parent_name" : "",
+                "usr" : "c:tree.h@3929@C@Tree@T@Dosth"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 111,
+                "name" : "dosthOnNodes(Node *, Dosth)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@dosthOnNodes#*$@C@Node# #"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 128,
+                "name" : "saveOneNode(Node *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@saveOneNode#*$@C@Node#I#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 132,
+                "name" : "markOneVarUsed(Node *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@markOneVarUsed#*$@C@Node#I#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 137,
+                "name" : "deleteTheNode(Node *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@deleteTheNode#*$@C@Node#I#"
+            },
+            {
+                "column" : 21,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 157,
+                "name" : "getTreePermVIs",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@getTreePermVIs#"
+            },
+            {
+                "column" : 21,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 161,
+                "name" : "getTreeIGRVIs",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@getTreeIGRVIs#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 165,
+                "name" : "setTreeIGRVIs(vector<double> &)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@setTreeIGRVIs#&$@N@std@C@vector>#d#$@N@std@C@allocator>#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 169,
+                "name" : "getTreeOOBErrorRate",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@getTreeOOBErrorRate#"
+            },
+            {
+                "column" : 18,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 173,
+                "name" : "getOOBPredictLabelSet",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@getOOBPredictLabelSet#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 177,
+                "name" : "setOOBPredictLabelSet(vector<int> &)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@setOOBPredictLabelSet#&$@N@std@C@vector>#I#$@N@std@C@allocator>#I#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 188,
+                "name" : "createLeafNode(const vector<int> &, int, bool)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@createLeafNode#&1$@N@std@C@vector>#I#$@N@std@C@allocator>#I#I#b#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 208,
+                "name" : "createInternalNode(int, VarSelectRes &)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@createInternalNode#I#&$@S@attribute_selection_result#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 220,
+                "name" : "predictLeafNode(Dataset *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@predictLeafNode#*$@C@Dataset#I#"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+                "kind" : 7,
+                "line" : 224,
+                "name" : "predictLabel(Dataset *, int)",
+                "parent_name" : "Tree",
+                "usr" : "c:@C@Tree@F@predictLabel#*$@C@Dataset#I#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/tree.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 4,
+                "line" : 13,
+                "name" : "ItemType",
+                "parent_name" : "",
+                "usr" : "c:@E@ItemType"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 5,
+                "line" : 14,
+                "name" : "DISCRETE",
+                "parent_name" : "",
+                "usr" : "c:@E@ItemType@DISCRETE"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 5,
+                "line" : 15,
+                "name" : "CONTINUOUS",
+                "parent_name" : "",
+                "usr" : "c:@E@ItemType@CONTINUOUS"
+            },
+            {
+                "column" : 18,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 8,
+                "line" : 17,
+                "name" : "VarType",
+                "parent_name" : "",
+                "usr" : "c:utility.h@227@T@VarType"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 4,
+                "line" : 19,
+                "name" : "NodeType",
+                "parent_name" : "",
+                "usr" : "c:@E@NodeType"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 5,
+                "line" : 20,
+                "name" : "LEAFNODE",
+                "parent_name" : "",
+                "usr" : "c:@E@NodeType@LEAFNODE"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 5,
+                "line" : 21,
+                "name" : "INTERNALNODE",
+                "parent_name" : "",
+                "usr" : "c:@E@NodeType@INTERNALNODE"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 5,
+                "line" : 22,
+                "name" : "UNKNOWN",
+                "parent_name" : "",
+                "usr" : "c:@E@NodeType@UNKNOWN"
+            },
+            {
+                "column" : 16,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 3,
+                "line" : 25,
+                "name" : "attribute_selection_result",
+                "parent_name" : "",
+                "usr" : "c:@S@attribute_selection_result"
+            },
+            {
+                "column" : 3,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 8,
+                "line" : 33,
+                "name" : "VarSelectRes",
+                "parent_name" : "",
+                "usr" : "c:utility.h@318@T@VarSelectRes"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 2,
+                "line" : 35,
+                "name" : "interrupt_exception",
+                "parent_name" : "",
+                "usr" : "c:@C@interrupt_exception"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 7,
+                "line" : 44,
+                "name" : "what",
+                "parent_name" : "interrupt_exception",
+                "usr" : "c:@C@interrupt_exception@F@what#1"
+            },
+            {
+                "column" : 20,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 6,
+                "line" : 50,
+                "name" : "check_interrupt_impl(void *)",
+                "parent_name" : "",
+                "usr" : "c:utility.h@881@F@check_interrupt_impl#*v#"
+            },
+            {
+                "column" : 13,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+                "kind" : 6,
+                "line" : 54,
+                "name" : "check_interrupt",
+                "parent_name" : "",
+                "usr" : "c:@F@check_interrupt#"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/utility.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/var_selector.h",
+                "kind" : 2,
+                "line" : 8,
+                "name" : "VarSelector",
+                "parent_name" : "",
+                "usr" : "c:@C@VarSelector"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/var_selector.h",
+        "file_last_write" : 1444434206
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+                "kind" : 6,
+                "line" : 22,
+                "name" : "wsrf(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@wsrf"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+                "kind" : 6,
+                "line" : 142,
+                "name" : "afterReduceForCluster(SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@afterReduceForCluster"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+                "kind" : 6,
+                "line" : 161,
+                "name" : "afterMergeOrSubset(SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@afterMergeOrSubset"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+                "kind" : 6,
+                "line" : 176,
+                "name" : "predict(SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@predict"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+                "kind" : 6,
+                "line" : 201,
+                "name" : "print(SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@print"
+            }
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.cpp",
+        "file_last_write" : 1476881125
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "C:/Users/HJJeong/Desktop/wsrf-master/src/wsrf.h",
+        "file_last_write" : 1444434206
+    }
+]
